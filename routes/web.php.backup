@@ -1,0 +1,39 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AdminUserController;
+
+Route::view('/', 'welcome');
+
+// Default dashboard - redirect based on role
+Route::get('/dashboard', function () {
+    if (auth()->user()->isAdmin()) {
+        return redirect()->route('admin.dashboard');
+    }
+    return redirect()->route('member.dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+// Admin routes
+Route::middleware(['auth', 'verified', 'role:admin'])->prefix('admin')->name('admin.')->group(function () {
+    Route::view('/dashboard', 'admin.dashboard')->name('dashboard');
+    Route::get('/users', [AdminUserController::class, 'index'])->name('users');
+    Route::get('/users/{user}/edit', [AdminUserController::class, 'edit'])->name('users.edit');
+    Route::put('/users/{user}', [AdminUserController::class, 'update'])->name('users.update');
+    Route::delete('/users/{user}', [AdminUserController::class, 'destroy'])->name('users.destroy');
+});
+
+// Member routes
+Route::middleware(['auth', 'verified', 'role:member'])->prefix('member')->name('member.')->group(function () {
+    Route::view('/dashboard', 'member.dashboard')->name('dashboard');
+    Route::get('/activities', [App\Http\Controllers\MemberActivityController::class, 'index'])->name('activities');
+});
+
+Route::view('profile', 'profile')
+    ->middleware(['auth'])
+    ->name('profile');
+
+Route::get('/livewire-demo', function () {
+    return view('livewire-demo');
+})->name('livewire.demo');
+
+require __DIR__.'/auth.php';

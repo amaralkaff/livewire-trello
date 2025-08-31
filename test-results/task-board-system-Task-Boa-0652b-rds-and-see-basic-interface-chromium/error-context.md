@@ -1,0 +1,615 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img [ref=e8]
+        - generic [ref=e10]: Internal Server Error
+      - generic [ref=e11]:
+        - generic [ref=e13] [cursor=pointer]: Copy as Markdown
+        - button [ref=e15] [cursor=pointer]:
+          - img [ref=e16] [cursor=pointer]
+  - main [ref=e18]:
+    - generic [ref=e19]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - generic [ref=e24]: InvalidArgumentException
+          - generic [ref=e25]: View [member.boards] not found.
+        - generic [ref=e26]:
+          - generic [ref=e28]: GET localhost:8000
+          - generic [ref=e30]: PHP 8.3.16 — Laravel 12.26.4
+      - generic [ref=e33]:
+        - generic [ref=e35]:
+          - button "Expand vendor frames" [ref=e37] [cursor=pointer]:
+            - generic [ref=e38] [cursor=pointer]: Expand
+            - generic [ref=e39] [cursor=pointer]: vendor frames
+            - generic [ref=e40] [cursor=pointer]:
+              - img [ref=e41] [cursor=pointer]
+              - img [ref=e43] [cursor=pointer]
+          - generic [ref=e45]:
+            - button "Illuminate\\View\\FileViewFinder :138 findInPaths" [ref=e46] [cursor=pointer]:
+              - generic [ref=e48] [cursor=pointer]:
+                - generic [ref=e50] [cursor=pointer]:
+                  - generic [ref=e51] [cursor=pointer]: Illuminate\View\FileViewFinder
+                  - generic [ref=e52] [cursor=pointer]: :138
+                - generic [ref=e53] [cursor=pointer]: findInPaths
+            - button "Illuminate\\View\\FileViewFinder :78 find" [ref=e54] [cursor=pointer]:
+              - generic [ref=e56] [cursor=pointer]:
+                - generic [ref=e58] [cursor=pointer]:
+                  - generic [ref=e59] [cursor=pointer]: Illuminate\View\FileViewFinder
+                  - generic [ref=e60] [cursor=pointer]: :78
+                - generic [ref=e61] [cursor=pointer]: find
+            - button "Illuminate\\View\\Factory :150 make" [ref=e62] [cursor=pointer]:
+              - generic [ref=e64] [cursor=pointer]:
+                - generic [ref=e66] [cursor=pointer]:
+                  - generic [ref=e67] [cursor=pointer]: Illuminate\View\Factory
+                  - generic [ref=e68] [cursor=pointer]: :150
+                - generic [ref=e69] [cursor=pointer]: make
+            - button "Illuminate\\Routing\\ResponseFactory :91 view" [ref=e70] [cursor=pointer]:
+              - generic [ref=e72] [cursor=pointer]:
+                - generic [ref=e74] [cursor=pointer]:
+                  - generic [ref=e75] [cursor=pointer]: Illuminate\Routing\ResponseFactory
+                  - generic [ref=e76] [cursor=pointer]: :91
+                - generic [ref=e77] [cursor=pointer]: view
+            - button "Illuminate\\Routing\\ViewController :40 __invoke" [ref=e78] [cursor=pointer]:
+              - generic [ref=e80] [cursor=pointer]:
+                - generic [ref=e82] [cursor=pointer]:
+                  - generic [ref=e83] [cursor=pointer]: Illuminate\Routing\ViewController
+                  - generic [ref=e84] [cursor=pointer]: :40
+                - generic [ref=e85] [cursor=pointer]: __invoke
+            - button "Illuminate\\Routing\\ViewController :57 callAction" [ref=e86] [cursor=pointer]:
+              - generic [ref=e88] [cursor=pointer]:
+                - generic [ref=e90] [cursor=pointer]:
+                  - generic [ref=e91] [cursor=pointer]: Illuminate\Routing\ViewController
+                  - generic [ref=e92] [cursor=pointer]: :57
+                - generic [ref=e93] [cursor=pointer]: callAction
+            - button "Illuminate\\Routing\\ControllerDispatcher :43 dispatch" [ref=e94] [cursor=pointer]:
+              - generic [ref=e96] [cursor=pointer]:
+                - generic [ref=e98] [cursor=pointer]:
+                  - generic [ref=e99] [cursor=pointer]: Illuminate\Routing\ControllerDispatcher
+                  - generic [ref=e100] [cursor=pointer]: :43
+                - generic [ref=e101] [cursor=pointer]: dispatch
+            - button "Illuminate\\Routing\\Route :265 runController" [ref=e102] [cursor=pointer]:
+              - generic [ref=e104] [cursor=pointer]:
+                - generic [ref=e106] [cursor=pointer]:
+                  - generic [ref=e107] [cursor=pointer]: Illuminate\Routing\Route
+                  - generic [ref=e108] [cursor=pointer]: :265
+                - generic [ref=e109] [cursor=pointer]: runController
+            - button "Illuminate\\Routing\\Route :211 run" [ref=e110] [cursor=pointer]:
+              - generic [ref=e112] [cursor=pointer]:
+                - generic [ref=e114] [cursor=pointer]:
+                  - generic [ref=e115] [cursor=pointer]: Illuminate\Routing\Route
+                  - generic [ref=e116] [cursor=pointer]: :211
+                - generic [ref=e117] [cursor=pointer]: run
+            - 'button "Illuminate\\Routing\\Router :822 Illuminate\\Routing\\{closure}" [ref=e118] [cursor=pointer]':
+              - generic [ref=e120] [cursor=pointer]:
+                - generic [ref=e122] [cursor=pointer]:
+                  - generic [ref=e123] [cursor=pointer]: Illuminate\Routing\Router
+                  - generic [ref=e124] [cursor=pointer]: :822
+                - generic [ref=e125] [cursor=pointer]: "Illuminate\\Routing\\{closure}"
+            - 'button "Illuminate\\Pipeline\\Pipeline :180 Illuminate\\Pipeline\\{closure}" [ref=e126] [cursor=pointer]':
+              - generic [ref=e128] [cursor=pointer]:
+                - generic [ref=e130] [cursor=pointer]:
+                  - generic [ref=e131] [cursor=pointer]: Illuminate\Pipeline\Pipeline
+                  - generic [ref=e132] [cursor=pointer]: :180
+                - generic [ref=e133] [cursor=pointer]: "Illuminate\\Pipeline\\{closure}"
+            - button "App\\Http\\Middleware\\CheckRole :23 handle" [ref=e134] [cursor=pointer]:
+              - generic [ref=e136] [cursor=pointer]:
+                - generic [ref=e138] [cursor=pointer]:
+                  - generic [ref=e139] [cursor=pointer]: App\Http\Middleware\CheckRole
+                  - generic [ref=e140] [cursor=pointer]: :23
+                - generic [ref=e141] [cursor=pointer]: handle
+            - 'button "Illuminate\\Pipeline\\Pipeline :219 Illuminate\\Pipeline\\{closure}" [ref=e142] [cursor=pointer]':
+              - generic [ref=e144] [cursor=pointer]:
+                - generic [ref=e146] [cursor=pointer]:
+                  - generic [ref=e147] [cursor=pointer]: Illuminate\Pipeline\Pipeline
+                  - generic [ref=e148] [cursor=pointer]: :219
+                - generic [ref=e149] [cursor=pointer]: "Illuminate\\Pipeline\\{closure}"
+            - button "Illuminate\\Auth\\Middleware\\EnsureEmailIsVerified :41 handle" [ref=e150] [cursor=pointer]:
+              - generic [ref=e152] [cursor=pointer]:
+                - generic [ref=e154] [cursor=pointer]:
+                  - generic [ref=e155] [cursor=pointer]: Illuminate\Auth\Middleware\EnsureEmailIsVerified
+                  - generic [ref=e156] [cursor=pointer]: :41
+                - generic [ref=e157] [cursor=pointer]: handle
+            - 'button "Illuminate\\Pipeline\\Pipeline :219 Illuminate\\Pipeline\\{closure}" [ref=e158] [cursor=pointer]':
+              - generic [ref=e160] [cursor=pointer]:
+                - generic [ref=e162] [cursor=pointer]:
+                  - generic [ref=e163] [cursor=pointer]: Illuminate\Pipeline\Pipeline
+                  - generic [ref=e164] [cursor=pointer]: :219
+                - generic [ref=e165] [cursor=pointer]: "Illuminate\\Pipeline\\{closure}"
+            - button "Illuminate\\Routing\\Middleware\\SubstituteBindings :50 handle" [ref=e166] [cursor=pointer]:
+              - generic [ref=e168] [cursor=pointer]:
+                - generic [ref=e170] [cursor=pointer]:
+                  - generic [ref=e171] [cursor=pointer]: Illuminate\Routing\Middleware\SubstituteBindings
+                  - generic [ref=e172] [cursor=pointer]: :50
+                - generic [ref=e173] [cursor=pointer]: handle
+            - 'button "Illuminate\\Pipeline\\Pipeline :219 Illuminate\\Pipeline\\{closure}" [ref=e174] [cursor=pointer]':
+              - generic [ref=e176] [cursor=pointer]:
+                - generic [ref=e178] [cursor=pointer]:
+                  - generic [ref=e179] [cursor=pointer]: Illuminate\Pipeline\Pipeline
+                  - generic [ref=e180] [cursor=pointer]: :219
+                - generic [ref=e181] [cursor=pointer]: "Illuminate\\Pipeline\\{closure}"
+            - button "Illuminate\\Auth\\Middleware\\Authenticate :63 handle" [ref=e182] [cursor=pointer]:
+              - generic [ref=e184] [cursor=pointer]:
+                - generic [ref=e186] [cursor=pointer]:
+                  - generic [ref=e187] [cursor=pointer]: Illuminate\Auth\Middleware\Authenticate
+                  - generic [ref=e188] [cursor=pointer]: :63
+                - generic [ref=e189] [cursor=pointer]: handle
+            - 'button "Illuminate\\Pipeline\\Pipeline :219 Illuminate\\Pipeline\\{closure}" [ref=e190] [cursor=pointer]':
+              - generic [ref=e192] [cursor=pointer]:
+                - generic [ref=e194] [cursor=pointer]:
+                  - generic [ref=e195] [cursor=pointer]: Illuminate\Pipeline\Pipeline
+                  - generic [ref=e196] [cursor=pointer]: :219
+                - generic [ref=e197] [cursor=pointer]: "Illuminate\\Pipeline\\{closure}"
+            - button "Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken :87 handle" [ref=e198] [cursor=pointer]:
+              - generic [ref=e200] [cursor=pointer]:
+                - generic [ref=e202] [cursor=pointer]:
+                  - generic [ref=e203] [cursor=pointer]: Illuminate\Foundation\Http\Middleware\VerifyCsrfToken
+                  - generic [ref=e204] [cursor=pointer]: :87
+                - generic [ref=e205] [cursor=pointer]: handle
+            - 'button "Illuminate\\Pipeline\\Pipeline :219 Illuminate\\Pipeline\\{closure}" [ref=e206] [cursor=pointer]':
+              - generic [ref=e208] [cursor=pointer]:
+                - generic [ref=e210] [cursor=pointer]:
+                  - generic [ref=e211] [cursor=pointer]: Illuminate\Pipeline\Pipeline
+                  - generic [ref=e212] [cursor=pointer]: :219
+                - generic [ref=e213] [cursor=pointer]: "Illuminate\\Pipeline\\{closure}"
+            - button "Illuminate\\View\\Middleware\\ShareErrorsFromSession :48 handle" [ref=e214] [cursor=pointer]:
+              - generic [ref=e216] [cursor=pointer]:
+                - generic [ref=e218] [cursor=pointer]:
+                  - generic [ref=e219] [cursor=pointer]: Illuminate\View\Middleware\ShareErrorsFromSession
+                  - generic [ref=e220] [cursor=pointer]: :48
+                - generic [ref=e221] [cursor=pointer]: handle
+            - 'button "Illuminate\\Pipeline\\Pipeline :219 Illuminate\\Pipeline\\{closure}" [ref=e222] [cursor=pointer]':
+              - generic [ref=e224] [cursor=pointer]:
+                - generic [ref=e226] [cursor=pointer]:
+                  - generic [ref=e227] [cursor=pointer]: Illuminate\Pipeline\Pipeline
+                  - generic [ref=e228] [cursor=pointer]: :219
+                - generic [ref=e229] [cursor=pointer]: "Illuminate\\Pipeline\\{closure}"
+            - button "Illuminate\\Session\\Middleware\\StartSession :120 handleStatefulRequest" [ref=e230] [cursor=pointer]:
+              - generic [ref=e232] [cursor=pointer]:
+                - generic [ref=e234] [cursor=pointer]:
+                  - generic [ref=e235] [cursor=pointer]: Illuminate\Session\Middleware\StartSession
+                  - generic [ref=e236] [cursor=pointer]: :120
+                - generic [ref=e237] [cursor=pointer]: handleStatefulRequest
+            - button "Illuminate\\Session\\Middleware\\StartSession :63 handle" [ref=e238] [cursor=pointer]:
+              - generic [ref=e240] [cursor=pointer]:
+                - generic [ref=e242] [cursor=pointer]:
+                  - generic [ref=e243] [cursor=pointer]: Illuminate\Session\Middleware\StartSession
+                  - generic [ref=e244] [cursor=pointer]: :63
+                - generic [ref=e245] [cursor=pointer]: handle
+            - 'button "Illuminate\\Pipeline\\Pipeline :219 Illuminate\\Pipeline\\{closure}" [ref=e246] [cursor=pointer]':
+              - generic [ref=e248] [cursor=pointer]:
+                - generic [ref=e250] [cursor=pointer]:
+                  - generic [ref=e251] [cursor=pointer]: Illuminate\Pipeline\Pipeline
+                  - generic [ref=e252] [cursor=pointer]: :219
+                - generic [ref=e253] [cursor=pointer]: "Illuminate\\Pipeline\\{closure}"
+            - button "Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse :36 handle" [ref=e254] [cursor=pointer]:
+              - generic [ref=e256] [cursor=pointer]:
+                - generic [ref=e258] [cursor=pointer]:
+                  - generic [ref=e259] [cursor=pointer]: Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse
+                  - generic [ref=e260] [cursor=pointer]: :36
+                - generic [ref=e261] [cursor=pointer]: handle
+            - 'button "Illuminate\\Pipeline\\Pipeline :219 Illuminate\\Pipeline\\{closure}" [ref=e262] [cursor=pointer]':
+              - generic [ref=e264] [cursor=pointer]:
+                - generic [ref=e266] [cursor=pointer]:
+                  - generic [ref=e267] [cursor=pointer]: Illuminate\Pipeline\Pipeline
+                  - generic [ref=e268] [cursor=pointer]: :219
+                - generic [ref=e269] [cursor=pointer]: "Illuminate\\Pipeline\\{closure}"
+            - button "Illuminate\\Cookie\\Middleware\\EncryptCookies :74 handle" [ref=e270] [cursor=pointer]:
+              - generic [ref=e272] [cursor=pointer]:
+                - generic [ref=e274] [cursor=pointer]:
+                  - generic [ref=e275] [cursor=pointer]: Illuminate\Cookie\Middleware\EncryptCookies
+                  - generic [ref=e276] [cursor=pointer]: :74
+                - generic [ref=e277] [cursor=pointer]: handle
+            - 'button "Illuminate\\Pipeline\\Pipeline :219 Illuminate\\Pipeline\\{closure}" [ref=e278] [cursor=pointer]':
+              - generic [ref=e280] [cursor=pointer]:
+                - generic [ref=e282] [cursor=pointer]:
+                  - generic [ref=e283] [cursor=pointer]: Illuminate\Pipeline\Pipeline
+                  - generic [ref=e284] [cursor=pointer]: :219
+                - generic [ref=e285] [cursor=pointer]: "Illuminate\\Pipeline\\{closure}"
+            - button "Illuminate\\Pipeline\\Pipeline :137 then" [ref=e286] [cursor=pointer]:
+              - generic [ref=e288] [cursor=pointer]:
+                - generic [ref=e290] [cursor=pointer]:
+                  - generic [ref=e291] [cursor=pointer]: Illuminate\Pipeline\Pipeline
+                  - generic [ref=e292] [cursor=pointer]: :137
+                - generic [ref=e293] [cursor=pointer]: then
+            - button "Illuminate\\Routing\\Router :821 runRouteWithinStack" [ref=e294] [cursor=pointer]:
+              - generic [ref=e296] [cursor=pointer]:
+                - generic [ref=e298] [cursor=pointer]:
+                  - generic [ref=e299] [cursor=pointer]: Illuminate\Routing\Router
+                  - generic [ref=e300] [cursor=pointer]: :821
+                - generic [ref=e301] [cursor=pointer]: runRouteWithinStack
+            - button "Illuminate\\Routing\\Router :800 runRoute" [ref=e302] [cursor=pointer]:
+              - generic [ref=e304] [cursor=pointer]:
+                - generic [ref=e306] [cursor=pointer]:
+                  - generic [ref=e307] [cursor=pointer]: Illuminate\Routing\Router
+                  - generic [ref=e308] [cursor=pointer]: :800
+                - generic [ref=e309] [cursor=pointer]: runRoute
+            - button "Illuminate\\Routing\\Router :764 dispatchToRoute" [ref=e310] [cursor=pointer]:
+              - generic [ref=e312] [cursor=pointer]:
+                - generic [ref=e314] [cursor=pointer]:
+                  - generic [ref=e315] [cursor=pointer]: Illuminate\Routing\Router
+                  - generic [ref=e316] [cursor=pointer]: :764
+                - generic [ref=e317] [cursor=pointer]: dispatchToRoute
+            - button "Illuminate\\Routing\\Router :753 dispatch" [ref=e318] [cursor=pointer]:
+              - generic [ref=e320] [cursor=pointer]:
+                - generic [ref=e322] [cursor=pointer]:
+                  - generic [ref=e323] [cursor=pointer]: Illuminate\Routing\Router
+                  - generic [ref=e324] [cursor=pointer]: :753
+                - generic [ref=e325] [cursor=pointer]: dispatch
+            - 'button "Illuminate\\Foundation\\Http\\Kernel :200 Illuminate\\Foundation\\Http\\{closure}" [ref=e326] [cursor=pointer]':
+              - generic [ref=e328] [cursor=pointer]:
+                - generic [ref=e330] [cursor=pointer]:
+                  - generic [ref=e331] [cursor=pointer]: Illuminate\Foundation\Http\Kernel
+                  - generic [ref=e332] [cursor=pointer]: :200
+                - generic [ref=e333] [cursor=pointer]: "Illuminate\\Foundation\\Http\\{closure}"
+            - 'button "Illuminate\\Pipeline\\Pipeline :180 Illuminate\\Pipeline\\{closure}" [ref=e334] [cursor=pointer]':
+              - generic [ref=e336] [cursor=pointer]:
+                - generic [ref=e338] [cursor=pointer]:
+                  - generic [ref=e339] [cursor=pointer]: Illuminate\Pipeline\Pipeline
+                  - generic [ref=e340] [cursor=pointer]: :180
+                - generic [ref=e341] [cursor=pointer]: "Illuminate\\Pipeline\\{closure}"
+            - button "Livewire\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware :19 handle" [ref=e342] [cursor=pointer]:
+              - generic [ref=e344] [cursor=pointer]:
+                - generic [ref=e346] [cursor=pointer]:
+                  - generic [ref=e347] [cursor=pointer]: Livewire\Features\SupportDisablingBackButtonCache\DisableBackButtonCacheMiddleware
+                  - generic [ref=e348] [cursor=pointer]: :19
+                - generic [ref=e349] [cursor=pointer]: handle
+            - 'button "Illuminate\\Pipeline\\Pipeline :219 Illuminate\\Pipeline\\{closure}" [ref=e350] [cursor=pointer]':
+              - generic [ref=e352] [cursor=pointer]:
+                - generic [ref=e354] [cursor=pointer]:
+                  - generic [ref=e355] [cursor=pointer]: Illuminate\Pipeline\Pipeline
+                  - generic [ref=e356] [cursor=pointer]: :219
+                - generic [ref=e357] [cursor=pointer]: "Illuminate\\Pipeline\\{closure}"
+            - button "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest :21 handle" [ref=e358] [cursor=pointer]:
+              - generic [ref=e360] [cursor=pointer]:
+                - generic [ref=e362] [cursor=pointer]:
+                  - generic [ref=e363] [cursor=pointer]: Illuminate\Foundation\Http\Middleware\TransformsRequest
+                  - generic [ref=e364] [cursor=pointer]: :21
+                - generic [ref=e365] [cursor=pointer]: handle
+            - button "Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull :31 handle" [ref=e366] [cursor=pointer]:
+              - generic [ref=e368] [cursor=pointer]:
+                - generic [ref=e370] [cursor=pointer]:
+                  - generic [ref=e371] [cursor=pointer]: Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull
+                  - generic [ref=e372] [cursor=pointer]: :31
+                - generic [ref=e373] [cursor=pointer]: handle
+            - 'button "Illuminate\\Pipeline\\Pipeline :219 Illuminate\\Pipeline\\{closure}" [ref=e374] [cursor=pointer]':
+              - generic [ref=e376] [cursor=pointer]:
+                - generic [ref=e378] [cursor=pointer]:
+                  - generic [ref=e379] [cursor=pointer]: Illuminate\Pipeline\Pipeline
+                  - generic [ref=e380] [cursor=pointer]: :219
+                - generic [ref=e381] [cursor=pointer]: "Illuminate\\Pipeline\\{closure}"
+            - button "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest :21 handle" [ref=e382] [cursor=pointer]:
+              - generic [ref=e384] [cursor=pointer]:
+                - generic [ref=e386] [cursor=pointer]:
+                  - generic [ref=e387] [cursor=pointer]: Illuminate\Foundation\Http\Middleware\TransformsRequest
+                  - generic [ref=e388] [cursor=pointer]: :21
+                - generic [ref=e389] [cursor=pointer]: handle
+            - button "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings :51 handle" [ref=e390] [cursor=pointer]:
+              - generic [ref=e392] [cursor=pointer]:
+                - generic [ref=e394] [cursor=pointer]:
+                  - generic [ref=e395] [cursor=pointer]: Illuminate\Foundation\Http\Middleware\TrimStrings
+                  - generic [ref=e396] [cursor=pointer]: :51
+                - generic [ref=e397] [cursor=pointer]: handle
+            - 'button "Illuminate\\Pipeline\\Pipeline :219 Illuminate\\Pipeline\\{closure}" [ref=e398] [cursor=pointer]':
+              - generic [ref=e400] [cursor=pointer]:
+                - generic [ref=e402] [cursor=pointer]:
+                  - generic [ref=e403] [cursor=pointer]: Illuminate\Pipeline\Pipeline
+                  - generic [ref=e404] [cursor=pointer]: :219
+                - generic [ref=e405] [cursor=pointer]: "Illuminate\\Pipeline\\{closure}"
+            - button "Illuminate\\Http\\Middleware\\ValidatePostSize :27 handle" [ref=e406] [cursor=pointer]:
+              - generic [ref=e408] [cursor=pointer]:
+                - generic [ref=e410] [cursor=pointer]:
+                  - generic [ref=e411] [cursor=pointer]: Illuminate\Http\Middleware\ValidatePostSize
+                  - generic [ref=e412] [cursor=pointer]: :27
+                - generic [ref=e413] [cursor=pointer]: handle
+            - 'button "Illuminate\\Pipeline\\Pipeline :219 Illuminate\\Pipeline\\{closure}" [ref=e414] [cursor=pointer]':
+              - generic [ref=e416] [cursor=pointer]:
+                - generic [ref=e418] [cursor=pointer]:
+                  - generic [ref=e419] [cursor=pointer]: Illuminate\Pipeline\Pipeline
+                  - generic [ref=e420] [cursor=pointer]: :219
+                - generic [ref=e421] [cursor=pointer]: "Illuminate\\Pipeline\\{closure}"
+            - button "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance :109 handle" [ref=e422] [cursor=pointer]:
+              - generic [ref=e424] [cursor=pointer]:
+                - generic [ref=e426] [cursor=pointer]:
+                  - generic [ref=e427] [cursor=pointer]: Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance
+                  - generic [ref=e428] [cursor=pointer]: :109
+                - generic [ref=e429] [cursor=pointer]: handle
+            - 'button "Illuminate\\Pipeline\\Pipeline :219 Illuminate\\Pipeline\\{closure}" [ref=e430] [cursor=pointer]':
+              - generic [ref=e432] [cursor=pointer]:
+                - generic [ref=e434] [cursor=pointer]:
+                  - generic [ref=e435] [cursor=pointer]: Illuminate\Pipeline\Pipeline
+                  - generic [ref=e436] [cursor=pointer]: :219
+                - generic [ref=e437] [cursor=pointer]: "Illuminate\\Pipeline\\{closure}"
+            - button "Illuminate\\Http\\Middleware\\HandleCors :48 handle" [ref=e438] [cursor=pointer]:
+              - generic [ref=e440] [cursor=pointer]:
+                - generic [ref=e442] [cursor=pointer]:
+                  - generic [ref=e443] [cursor=pointer]: Illuminate\Http\Middleware\HandleCors
+                  - generic [ref=e444] [cursor=pointer]: :48
+                - generic [ref=e445] [cursor=pointer]: handle
+            - 'button "Illuminate\\Pipeline\\Pipeline :219 Illuminate\\Pipeline\\{closure}" [ref=e446] [cursor=pointer]':
+              - generic [ref=e448] [cursor=pointer]:
+                - generic [ref=e450] [cursor=pointer]:
+                  - generic [ref=e451] [cursor=pointer]: Illuminate\Pipeline\Pipeline
+                  - generic [ref=e452] [cursor=pointer]: :219
+                - generic [ref=e453] [cursor=pointer]: "Illuminate\\Pipeline\\{closure}"
+            - button "Illuminate\\Http\\Middleware\\TrustProxies :58 handle" [ref=e454] [cursor=pointer]:
+              - generic [ref=e456] [cursor=pointer]:
+                - generic [ref=e458] [cursor=pointer]:
+                  - generic [ref=e459] [cursor=pointer]: Illuminate\Http\Middleware\TrustProxies
+                  - generic [ref=e460] [cursor=pointer]: :58
+                - generic [ref=e461] [cursor=pointer]: handle
+            - 'button "Illuminate\\Pipeline\\Pipeline :219 Illuminate\\Pipeline\\{closure}" [ref=e462] [cursor=pointer]':
+              - generic [ref=e464] [cursor=pointer]:
+                - generic [ref=e466] [cursor=pointer]:
+                  - generic [ref=e467] [cursor=pointer]: Illuminate\Pipeline\Pipeline
+                  - generic [ref=e468] [cursor=pointer]: :219
+                - generic [ref=e469] [cursor=pointer]: "Illuminate\\Pipeline\\{closure}"
+            - button "Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks :22 handle" [ref=e470] [cursor=pointer]:
+              - generic [ref=e472] [cursor=pointer]:
+                - generic [ref=e474] [cursor=pointer]:
+                  - generic [ref=e475] [cursor=pointer]: Illuminate\Foundation\Http\Middleware\InvokeDeferredCallbacks
+                  - generic [ref=e476] [cursor=pointer]: :22
+                - generic [ref=e477] [cursor=pointer]: handle
+            - 'button "Illuminate\\Pipeline\\Pipeline :219 Illuminate\\Pipeline\\{closure}" [ref=e478] [cursor=pointer]':
+              - generic [ref=e480] [cursor=pointer]:
+                - generic [ref=e482] [cursor=pointer]:
+                  - generic [ref=e483] [cursor=pointer]: Illuminate\Pipeline\Pipeline
+                  - generic [ref=e484] [cursor=pointer]: :219
+                - generic [ref=e485] [cursor=pointer]: "Illuminate\\Pipeline\\{closure}"
+            - button "Illuminate\\Http\\Middleware\\ValidatePathEncoding :26 handle" [ref=e486] [cursor=pointer]:
+              - generic [ref=e488] [cursor=pointer]:
+                - generic [ref=e490] [cursor=pointer]:
+                  - generic [ref=e491] [cursor=pointer]: Illuminate\Http\Middleware\ValidatePathEncoding
+                  - generic [ref=e492] [cursor=pointer]: :26
+                - generic [ref=e493] [cursor=pointer]: handle
+            - 'button "Illuminate\\Pipeline\\Pipeline :219 Illuminate\\Pipeline\\{closure}" [ref=e494] [cursor=pointer]':
+              - generic [ref=e496] [cursor=pointer]:
+                - generic [ref=e498] [cursor=pointer]:
+                  - generic [ref=e499] [cursor=pointer]: Illuminate\Pipeline\Pipeline
+                  - generic [ref=e500] [cursor=pointer]: :219
+                - generic [ref=e501] [cursor=pointer]: "Illuminate\\Pipeline\\{closure}"
+            - button "Illuminate\\Pipeline\\Pipeline :137 then" [ref=e502] [cursor=pointer]:
+              - generic [ref=e504] [cursor=pointer]:
+                - generic [ref=e506] [cursor=pointer]:
+                  - generic [ref=e507] [cursor=pointer]: Illuminate\Pipeline\Pipeline
+                  - generic [ref=e508] [cursor=pointer]: :137
+                - generic [ref=e509] [cursor=pointer]: then
+            - button "Illuminate\\Foundation\\Http\\Kernel :175 sendRequestThroughRouter" [ref=e510] [cursor=pointer]:
+              - generic [ref=e512] [cursor=pointer]:
+                - generic [ref=e514] [cursor=pointer]:
+                  - generic [ref=e515] [cursor=pointer]: Illuminate\Foundation\Http\Kernel
+                  - generic [ref=e516] [cursor=pointer]: :175
+                - generic [ref=e517] [cursor=pointer]: sendRequestThroughRouter
+            - button "Illuminate\\Foundation\\Http\\Kernel :144 handle" [ref=e518] [cursor=pointer]:
+              - generic [ref=e520] [cursor=pointer]:
+                - generic [ref=e522] [cursor=pointer]:
+                  - generic [ref=e523] [cursor=pointer]: Illuminate\Foundation\Http\Kernel
+                  - generic [ref=e524] [cursor=pointer]: :144
+                - generic [ref=e525] [cursor=pointer]: handle
+            - button "Illuminate\\Foundation\\Application :1219 handleRequest" [ref=e526] [cursor=pointer]:
+              - generic [ref=e528] [cursor=pointer]:
+                - generic [ref=e530] [cursor=pointer]:
+                  - generic [ref=e531] [cursor=pointer]: Illuminate\Foundation\Application
+                  - generic [ref=e532] [cursor=pointer]: :1219
+                - generic [ref=e533] [cursor=pointer]: handleRequest
+            - button "C:\\laragon\\www\\my-first-app\\public\\index.php :20 require_once" [ref=e534] [cursor=pointer]:
+              - generic [ref=e536] [cursor=pointer]:
+                - generic [ref=e538] [cursor=pointer]:
+                  - generic [ref=e539] [cursor=pointer]: C:\laragon\www\my-first-app\public\index.php
+                  - generic [ref=e540] [cursor=pointer]: :20
+                - generic [ref=e541] [cursor=pointer]: require_once
+            - button "C:\\laragon\\www\\my-first-app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php :23" [ref=e542] [cursor=pointer]:
+              - generic [ref=e546] [cursor=pointer]:
+                - generic [ref=e547] [cursor=pointer]: C:\laragon\www\my-first-app\vendor\laravel\framework\src\Illuminate\Foundation\resources\server.php
+                - generic [ref=e548] [cursor=pointer]: :23
+        - generic [ref=e549]:
+          - generic [ref=e552]:
+            - generic [ref=e553]: C:\laragon\www\my-first-app\vendor\laravel\framework\src\Illuminate\View\FileViewFinder.php
+            - generic [ref=e554]: :138
+          - code [ref=e557]:
+            - table [ref=e558]:
+              - rowgroup [ref=e559]:
+                - row "133 return $viewPath;" [ref=e560]:
+                  - cell "133" [ref=e561]:
+                    - generic [ref=e562]: "133"
+                  - cell "return $viewPath;" [ref=e563]:
+                    - generic [ref=e564]: return
+                    - generic [ref=e565]: $viewPath
+                    - text: ;
+                - 'row "134 }" [ref=e566]':
+                  - cell "134" [ref=e567]:
+                    - generic [ref=e568]: "134"
+                  - 'cell "}" [ref=e569]'
+                - 'row "135 }" [ref=e570]':
+                  - cell "135" [ref=e571]:
+                    - generic [ref=e572]: "135"
+                  - 'cell "}" [ref=e573]'
+                - 'row "136 }" [ref=e574]':
+                  - cell "136" [ref=e575]:
+                    - generic [ref=e576]: "136"
+                  - 'cell "}" [ref=e577]'
+                - row "137" [ref=e578]:
+                  - cell "137" [ref=e579]:
+                    - generic [ref=e580]: "137"
+                  - cell [ref=e581]
+                - 'row "138 throw new InvalidArgumentException(\"View [{$name}] not found.\");" [ref=e582]':
+                  - cell "138" [ref=e583]:
+                    - generic [ref=e584]: "138"
+                  - 'cell "throw new InvalidArgumentException(\"View [{$name}] not found.\");" [ref=e585]':
+                    - generic [ref=e586]: throw
+                    - generic [ref=e587]: new
+                    - generic [ref=e588]: InvalidArgumentException
+                    - text: (
+                    - generic [ref=e589]:
+                      - text: "\"View ["
+                      - generic [ref=e590]: "{$name}"
+                      - text: "] not found.\""
+                    - text: );
+                - 'row "139 }" [ref=e591]':
+                  - cell "139" [ref=e592]:
+                    - generic [ref=e593]: "139"
+                  - 'cell "}" [ref=e594]'
+                - row "140" [ref=e595]:
+                  - cell "140" [ref=e596]:
+                    - generic [ref=e597]: "140"
+                  - cell [ref=e598]
+                - row "141 /**" [ref=e599]:
+                  - cell "141" [ref=e600]:
+                    - generic [ref=e601]: "141"
+                  - cell "/**" [ref=e602]:
+                    - generic [ref=e604]: /**
+                - row "142 * Get an array of possible view files." [ref=e605]:
+                  - cell "142" [ref=e606]:
+                    - generic [ref=e607]: "142"
+                  - cell "* Get an array of possible view files." [ref=e608]:
+                    - generic [ref=e609]: "* Get an array of possible view files."
+                - row "143 *" [ref=e610]:
+                  - cell "143" [ref=e611]:
+                    - generic [ref=e612]: "143"
+                  - cell "*" [ref=e613]:
+                    - generic [ref=e614]: "*"
+                - row "144 * @param string $name" [ref=e615]:
+                  - cell "144" [ref=e616]:
+                    - generic [ref=e617]: "144"
+                  - cell "* @param string $name" [ref=e618]:
+                    - generic [ref=e619]:
+                      - text: "*"
+                      - generic [ref=e620]: "@param"
+                      - text: string $name
+                - row "145 * @return string[]" [ref=e621]:
+                  - cell "145" [ref=e622]:
+                    - generic [ref=e623]: "145"
+                  - cell "* @return string[]" [ref=e624]:
+                    - generic [ref=e625]:
+                      - text: "*"
+                      - generic [ref=e626]: "@return"
+                      - text: string[]
+                - row "146 */" [ref=e627]:
+                  - cell "146" [ref=e628]:
+                    - generic [ref=e629]: "146"
+                  - cell "*/" [ref=e630]:
+                    - generic [ref=e631]: "*/"
+                - row "147 protected function getPossibleViewFiles($name)" [ref=e632]:
+                  - cell "147" [ref=e633]:
+                    - generic [ref=e634]: "147"
+                  - cell "protected function getPossibleViewFiles($name)" [ref=e635]:
+                    - generic [ref=e636]: protected
+                    - generic [ref=e637]:
+                      - generic [ref=e638]: function
+                      - generic [ref=e639]: getPossibleViewFiles
+                      - text: (
+                      - generic [ref=e641]: $name
+                      - text: )
+                - 'row "148 {" [ref=e642]':
+                  - cell "148" [ref=e643]:
+                    - generic [ref=e644]: "148"
+                  - 'cell "{" [ref=e645]'
+                - row "149 return array_map(fn ($extension) => str_replace('.', '/', $name).'.'.$extension, $this->extensions);" [ref=e646]:
+                  - cell "149" [ref=e647]:
+                    - generic [ref=e648]: "149"
+                  - cell "return array_map(fn ($extension) => str_replace('.', '/', $name).'.'.$extension, $this->extensions);" [ref=e649]:
+                    - generic [ref=e650]: return
+                    - generic [ref=e651]: array_map
+                    - text: (fn (
+                    - generic [ref=e652]: $extension
+                    - text: ) =>
+                    - generic [ref=e653]: str_replace
+                    - text: (
+                    - generic [ref=e654]: "'.'"
+                    - text: ","
+                    - generic [ref=e655]: "'/'"
+                    - text: ","
+                    - generic [ref=e656]: $name
+                    - text: ).
+                    - generic [ref=e657]: "'.'"
+                    - text: .
+                    - generic [ref=e658]: $extension
+                    - text: ","
+                    - generic [ref=e659]: $this
+                    - text: "->extensions);"
+        - text: 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 52 53 54 55 56 57 58 59 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 260 261 262 263 264 265 266 267 268 269 270 271 272 273 274 275 276 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 817 818 819 820 821 822 823 824 825 826 827 828 829 830 831 832 833 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 18 19 20 21 22 23 24 25 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 36 37 38 39 40 41 42 43 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 45 46 47 48 49 50 51 52 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 43 44 45 46 47 48 49 50 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 31 32 33 34 35 36 37 38 39 40 41 42 43 44 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 816 817 818 819 820 821 822 823 824 825 826 827 828 829 830 831 832 833 795 796 797 798 799 800 801 802 803 804 805 806 807 808 809 810 811 812 759 760 761 762 763 764 765 766 767 768 769 770 771 772 773 774 775 748 749 750 751 752 753 754 755 756 757 758 759 760 761 762 763 764 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 21 22 23 24 25 26 27 28 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 1214 1215 1216 1217 1218 1219 1220 1221 1222 1223 1224 1225 1226 1227 1228 1229 1230 1231 15 16 17 18 19 20 18 19 20 21 22 23
+      - generic [ref=e660]:
+        - generic [ref=e662]: Request
+        - generic [ref=e663]:
+          - generic [ref=e664]: GET
+          - generic [ref=e665]: /member/boards
+        - generic [ref=e667]: Headers
+        - generic [ref=e668]:
+          - generic [ref=e669]:
+            - generic [ref=e670] [cursor=pointer]: host
+            - code [ref=e673]: localhost:8000
+          - generic [ref=e674]:
+            - generic [ref=e675] [cursor=pointer]: connection
+            - code [ref=e678]: keep-alive
+          - generic [ref=e679]:
+            - generic [ref=e680] [cursor=pointer]: sec-ch-ua
+            - code [ref=e683]: "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\""
+          - generic [ref=e684]:
+            - generic [ref=e685] [cursor=pointer]: sec-ch-ua-mobile
+            - code [ref=e688]: "?0"
+          - generic [ref=e689]:
+            - generic [ref=e690] [cursor=pointer]: sec-ch-ua-platform
+            - code [ref=e693]: "\"Windows\""
+          - generic [ref=e694]:
+            - generic [ref=e695] [cursor=pointer]: upgrade-insecure-requests
+            - code [ref=e698]: "1"
+          - generic [ref=e699]:
+            - generic [ref=e700] [cursor=pointer]: user-agent
+            - code [ref=e703]: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.7339.16 Safari/537.36
+          - generic [ref=e704]:
+            - generic [ref=e705] [cursor=pointer]: accept-language
+            - code [ref=e708]: en-US
+          - generic [ref=e709]:
+            - generic [ref=e710] [cursor=pointer]: accept
+            - code [ref=e713]: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+          - generic [ref=e714]:
+            - generic [ref=e715] [cursor=pointer]: sec-fetch-site
+            - code [ref=e718]: none
+          - generic [ref=e719]:
+            - generic [ref=e720] [cursor=pointer]: sec-fetch-mode
+            - code [ref=e723]: navigate
+          - generic [ref=e724]:
+            - generic [ref=e725] [cursor=pointer]: sec-fetch-user
+            - code [ref=e728]: "?1"
+          - generic [ref=e729]:
+            - generic [ref=e730] [cursor=pointer]: sec-fetch-dest
+            - code [ref=e733]: document
+          - generic [ref=e734]:
+            - generic [ref=e735] [cursor=pointer]: accept-encoding
+            - code [ref=e738]: gzip, deflate, br, zstd
+          - generic [ref=e739]:
+            - generic [ref=e740] [cursor=pointer]: cookie
+            - code [ref=e743]: XSRF-TOKEN=eyJpdiI6IlNzMDE3MjRMdVByUU9ta1YreE1ZaEE9PSIsInZhbHVlIjoiSEd2M0pxUDRyZ3p6dEFEdyt5dkJLeDNmVEV6VElpSEtOSmVNcm14V1ZyUmhDNk94SDA5dFZZNUdUaC9oRHRrTGE4ditkeDM2VUFzY2EyQjFDaEpXVFpvMktPclI2Y0lOemp6OXdQYmhaaFBydEQwTS9lYjM4QzVZVTdKay9pS3kiLCJtYWMiOiIwMDg5YjM0ZGRhNmU0YWI1NzYwOGZlMzI5YTgzOGNhNWJkMmUxNzEzZmNkNDYzZWRlNjg4NWZmZGQyODU2OTJiIiwidGFnIjoiIn0%3D; laravel-session=eyJpdiI6Im4yOHBLWUw1Zm9zZzRQOS82WEg3Rmc9PSIsInZhbHVlIjoidURsNnI3NGJlT1lpZWhqeCtqMTZEM1lhUXlGMUtucXZrTW00Wnk1bzJMMStwbWovdk42aG9GVk5EMzF4NUVtUmJwVmZkaDVUNXVjM0M0M09XVVY0RlpnSTRWUzgrekZESHhsWE56eGJIeHZ4Qm5iZFhRc3NReWNuQjZCKzBBeksiLCJtYWMiOiI2N2FlNDczNTM4NjRmZmFiZDEwNTE5MTAzNjdiYzI5ZmMyYzFiYzMxZTAxNmNlOTA3M2UxYTg5NTU3YmQ5MTUxIiwidGFnIjoiIn0%3D
+        - generic [ref=e745]: Body
+        - code [ref=e750]: No body data
+      - generic [ref=e751]:
+        - generic [ref=e753]: Application
+        - generic [ref=e755]: Routing
+        - generic [ref=e756]:
+          - generic [ref=e757]:
+            - generic [ref=e758] [cursor=pointer]: controller
+            - code [ref=e761]: \Illuminate\Routing\ViewController
+          - generic [ref=e762]:
+            - generic [ref=e763] [cursor=pointer]: route name
+            - code [ref=e766]: member.boards
+          - generic [ref=e767]:
+            - generic [ref=e768] [cursor=pointer]: middleware
+            - code [ref=e771]: web, auth, verified, role:member
+        - generic [ref=e773]: Routing Parameters
+        - code [ref=e778]: "{ \"view\": \"member.boards\", \"data\": [], \"status\": 200, \"headers\": [] }"
+        - generic [ref=e780]: Database Queries
+        - generic [ref=e781]:
+          - generic [ref=e782]:
+            - generic [ref=e783]:
+              - generic [ref=e784]: pgsql
+              - generic [ref=e785]: (16.97 ms)
+            - code [ref=e788]: select * from "sessions" where "id" = 'AkbMIli0hTr2BHCSOmpSxBo8ALlxnJA3nGxiaj2T' limit 1
+          - generic [ref=e789]:
+            - generic [ref=e790]:
+              - generic [ref=e791]: pgsql
+              - generic [ref=e792]: (0.72 ms)
+            - code [ref=e795]: select * from "users" where "id" = 2 limit 1
+```
